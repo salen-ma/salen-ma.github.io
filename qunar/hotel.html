@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>酒店 - hotel</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/tool.css" />
+		<link rel="stylesheet" href="css/global.css" />
+		<link rel="stylesheet" href="css/hotel.css" />
+		<!--[if lt IE 8]>
+		<link rel="stylesheet" href="css/fixIE.css" />
+		<![endif]-->
+		<script src="js/html5shiv.js"></script>
+		<script src="js/DD_belatedPNG_0.0.8a.js"></script>
+		<script>
+			DD_belatedPNG.fix('i,a,span');
+		</script>
+		<!--<script src="js/firebug-lite/build/firebug-lite.js"></script>-->
+	</head>
+	<body>
+		<header class="head">
+			<div class="head_content wrap">
+				<h1 class="head_left logo fl">
+					<a href="" class="logo_bg fl">去哪儿</a>
+				</h1>
+				<div class="head_right fr">
+					<div class="loginBar fr">
+						<span class="login fl">
+							请
+							<a href="">登录</a>
+							或
+							<a href="">免费注册</a>
+						</span>
+						<span class="line fl"></span>
+						<a href="" class="news pr fl">
+							消息
+							<span class="mail pa ico_bg"></span>
+							<span class="tangle pa ico_bg"></span>
+						</a>
+						<span class="line fl"></span>
+						<a href="" class="order pr fl">
+							查看订单
+							<span class="tangle pa ico_bg"></span>
+						</a>
+						<span class="line fl"></span>
+						<a href="" class="mall fl">积分商城</a>
+						<span class="line fl"></span>
+						<a href="" class="contact fl">联系客服</a>
+						<span class="line fl"></span>
+						<a href="" class="english pr fl">
+							In English
+							<span class="flag pa ico_bg"></span>
+						</a>
+					</div>
+					<div class="topNav_wrap fr">
+						<nav class="topNav fl">
+							<a href="index.html">首页</a>
+							<a href="ticket.html">机票</a>
+							<a href="hotel.html" class="active">酒店</a>
+							<a href="">团购</a>
+							<a href="">度假</a>
+							<a href="">门票</a>
+							<a href="">火车票</a>
+							<a href="">攻略</a>
+							<a href="">公寓</a>
+							<a href="">当地人</a>
+							<a href="">车车</a>
+							<a href="">汽车票</a>
+							<a href="">海外</a>
+							<a href="" class="insurance pr">
+								保险
+								<span class="guarantee pa ico_bg of"></span>
+							</a>
+							<a href="">金融</a>
+							<a href="">会场</a>
+						</nav>
+						<a href="" class="low_price fr logo_bg"></a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="main">
+			<div class="mainNav_wrap">
+				<div class="mainNav">
+					<nav class="nav_left fl">
+						<a href="" class="fl active">酒店搜索</a>
+						<a href="" class="fl">客栈民宿</a>
+						<a href="" class="fl">国际酒店</a>
+						<a href="" class="fl">酒店团购</a>
+						<a href="" class="fl">高端酒店</a>
+						<a href="" class="fl pr">
+							会场预定
+							<i class="left_nav_ico pa ico_bg"></i>
+						</a>
+					</nav>
+					<nav class="nav_right fr">
+						<a href="" class="comment fl pr">
+							点评社区
+							<i class="right_nav_ico pa ico_bg"></i>
+						</a>
+						<a href="" class="fl">积分商城</a>
+						<i class="fl bell ico_bg"></i>
+					</nav>
+				</div>
+			</div>
+			<div class="main_head pr">
+				<div class="main_head_content pr">
+					<div class="main_hotel_recommend">
+						<header class="hotel_recommend_head">
+							<h3 class="title fl">酒店预订</h3>
+							<div class="hotel_head_right fr">
+								<a href="" class="fl">
+									澳门星级酒店，持续惊喜盛放!
+								</a>
+								<span class="head_right_ico_wrap fl">
+									<i class="head_right_ico_pre ico_bg fl"></i>
+									<i class="head_right_ico_next ico_bg fl"></i>
+								</span>
+							</div>
+						</header>
+						<div class="hotel_recommend_content">
+							<div class="hotel_recommend_type">
+								<div class="recommend_type_wrap fl">
+									<a href="" class="fl pr">
+										<i class="radio1 pa ico_bg of"></i> 国内酒店
+									</a>
+									<a href="" class="fl pr">
+										<i class="radio2 pa ico_bg of"></i> 国际·港澳台酒店
+									</a>
+								</div>
+								<div class="defend fr pr">
+									<i class="defend_ico pa ico_bg of"></i>
+									<a href="">全程预定保障 去哪儿都放心</a>
+								</div>
+							</div>
+							<div class="hotel_info clearfix">
+								<form action="" class="fl">
+									<div class="input_wrap pr fl">
+										<input type="text" value="北京" class="destination fl" />
+										<span class="text_label pa">目的地</span>
+										<i class="destination_ico pa ico_bg"></i>
+									</div>
+									<div class="input_wrap pr fr">
+										<input type="text" value="(选填)酒店名、地标、商圈，可组合搜索" class="destination_info fr" />
+										<i class="destination_ico pa ico_bg"></i>
+									</div>
+									<div class="input_wrap pr fl">
+										<input type="text" value="2016-11-27" class="check_date fl" />
+										<span class="text_label pa">入住日期</span>
+										<span class="date_label pa">明天</span>
+										<i class="date_ico pa ico_bg"></i>
+									</div>
+									<div class="input_wrap pr fr">
+										<input type="text" value="2016-11-27" class="check_date fl" />
+										<span class="text_label pa">离店日期</span>
+										<span class="date_label pa">后天</span>
+										<i class="date_ico pa ico_bg"></i>
+									</div>
+								</form>
+								<div class="btn_wrap fr">
+									<a href="" class="map_search fl pr">
+										地图搜索
+										<i class="map_ico pa ico_bg of"></i>
+									</a>
+									<a href="" class="hotel_search fl">搜索</a>
+								</div>
+							</div>
+						</div>
+						<div class="hotel_recommend_foot">
+							<a class="scan_2code fl pr">
+								扫一扫，手机预订更优惠
+								<i class="twocode_ico pa ico_bg of"></i>
+								<i class="tangle_ico pa ico_bg of"></i>
+							</a>
+							<div class="get_tel fr">
+								<span class="fl">发送客户端下载地址到手机</span>
+								<input type="text" value="请输入11位手机号码" class="phone_num fl" />
+								<a href="" class="fl">免费获取</a>
+							</div>
+						</div>
+					</div>
+					<a href="" class="main_head_banner pa"></a>
+				</div>
+				<span class="banner_ico pa">
+						<span class="banner_ico_bg pa"></span>
+				<span class="ico_text pa">广告</span>
+				<span class="camel_ico pa ico_bg of"></span>
+				</span>
+			</div>
+			<div class="main_content">
+				<div class="main_content_left fl">
+					<div class="today_hotel">
+						<header class="hotel_head">
+							<h3 class="hotel_title fl">每日酒店推荐</h3>
+							<nav class="hotel_nav fr">
+								<a href="" class="fl active">全国</a>
+								<a href="" class="fl">广州</a>
+								<a href="" class="fl">深圳</a>
+								<a href="" class="fl">上海</a>
+								<a href="" class="fl">长沙</a>
+								<a href="" class="fl">哈尔滨</a>
+								<a href="" class="fl">三亚</a>
+								<a href="" class="fl">桂林</a>
+								<a href="" class="fl">石家庄</a>
+								<a href="" class="fl">合肥</a>
+							</nav>
+						</header>
+						<ul class="hotel_content clearfix">
+							<li class="today_item fl">
+								<a href="">
+									<img src="img/today_hotel_img1.jpg" alt="" />
+								</a>
+							</li>
+							<li class="today_item fl">
+								<a href="">
+									<img src="img/today_hotel_img2.jpg" alt="" />
+								</a>
+							</li>
+							<li class="today_item fl">
+								<a href="">
+									<img src="img/today_hotel_img3.jpg" alt="" />
+								</a>
+							</li>
+							<li class="today_item brand fl">
+								<a href="">
+									<img src="img/today_hotel_img4.jpg" alt="" />
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="hotel_log">
+						<header class="hotel_head">
+							<h3 class="hotel_title fl">酒店目录</h3>
+							<nav class="hotel_nav fr">
+								<a href="" class="fl active">北京</a>
+								<a href="" class="fl">上海</a>
+								<a href="" class="fl">广州</a>
+								<a href="" class="fl">深圳</a>
+								<a href="" class="fl">成都</a>
+								<a href="" class="fl">杭州</a>
+								<a href="" class="fl">南京</a>
+								<a href="" class="fl">西安</a>
+								<a href="" class="fl">青岛</a>
+								<a href="" class="fl">武汉</a>
+								<a href="" class="fl">三亚</a>
+							</nav>
+						</header>
+						<div class="hotel_content">
+							<table class="trade_area">
+								<tbody>
+									<tr>
+										<td class="trade_head">
+											<span>商圈</span>
+										</td>
+										<td class="trade_content">
+											<ul class="trade_list clearfix">
+												<li class="trade_item fl">
+													<div class="item_head">
+														<a href="">朝阳区</a>
+													</div>
+													<div class="item_content">
+														<a href="" class="fl orange">北京欢乐谷</a>
+														<span class="fl"></span>
+														<a href="" class="fl">三里屯</a>
+														<span class="fl"></span>
+														<a href="" class="fl">国贸</a>
+														<span class="fl"></span>
+														<a href="" class="fl orange">三元桥</a>
+													</div>
+												</li>
+												<li class="trade_item fl">
+													<div class="item_head">
+														<a href="">东城区</a>
+													</div>
+													<div class="item_content">
+														<a href="" class="fl orange">北京站</a>
+														<span class="fl"></span>
+														<a href="" class="fl">南锣鼓巷</a>
+														<span class="fl"></span>
+														<a href="" class="fl">长安街</a>
+														<span class="fl"></span>
+														<a href="" class="fl orange">广渠门</a>
+													</div>
+												</li>
+												<li class="trade_item fl">
+													<div class="item_head">
+														<a href="">海淀区</a>
+													</div>
+													<div class="item_content">
+														<a href="" class="fl orange">颐和园</a>
+														<span class="fl"></span>
+														<a href="" class="fl">苏州街</a>
+														<span class="fl"></span>
+														<a href="" class="fl">魏公村</a>
+														<span class="fl"></span>
+														<a href="" class="fl">首都体育场</a>
+													</div>
+												</li>
+												<li class="trade_item fl">
+													<div class="item_head">
+														<a href="">昌平区</a>
+													</div>
+													<div class="item_content">
+														<a href="" class="fl orange">回龙观</a>
+														<span class="fl"></span>
+														<a href="" class="fl">昌平县城</a>
+														<span class="fl"></span>
+														<a href="" class="fl">天通苑</a>
+														<span class="fl"></span>
+														<a href="" class="fl">华北电力大学</a>
+													</div>
+												</li>
+												<li class="trade_item fl">
+													<div class="item_head">
+														<a href="">西城区</a>
+													</div>
+													<div class="item_content">
+														<a href="" class="fl">北京北站</a>
+														<span class="fl"></span>
+														<a href="" class="fl orange">金融街</a>
+														<span class="fl"></span>
+														<a href="" class="fl">北京积水潭医院</a>
+													</div>
+												</li>
+												<li class="trade_item fl">
+													<div class="item_head">
+														<a href="">丰台区</a>
+													</div>
+													<div class="item_content">
+														<a href="" class="fl">南苑机场</a>
+														<span class="fl"></span>
+														<a href="" class="fl orange">六里桥长途客运站</a>
+													</div>
+												</li>
+												<li class="trade_item fl">
+													<div class="item_head">
+														<a href="">中关村、上地</a>
+													</div>
+													<div class="item_content">
+														<a href="" class="fl orange">北京大学</a>
+														<span class="fl"></span>
+														<a href="" class="fl">五道口</a>
+														<span class="fl"></span>
+														<a href="" class="fl">清华大学</a>
+														<span class="fl"></span>
+														<a href="" class="fl">中关村</a>
+													</div>
+												</li>
+												<li class="trade_item fl">
+													<div class="item_head">
+														<a href="">工体商圈</a>
+													</div>
+													<div class="item_content">
+														<a href="" class="fl orange">东直门</a>
+														<span class="fl"></span>
+														<a href="" class="fl">工体</a>
+														<span class="fl"></span>
+														<a href="" class="fl orange">保利剧院</a>
+													</div>
+												</li>
+												<li class="trade_item fl">
+													<div class="item_head">
+														<a href="">公主坟商圈</a>
+													</div>
+													<div class="item_content">
+														<a href="" class="fl orange">五棵松体育馆</a>
+														<span class="fl"></span>
+														<a href="" class="fl">301医院</a>
+														<span class="fl"></span>
+														<a href="" class="fl">万事达中心</a>
+													</div>
+												</li>
+												<li class="trade_item fl">
+													<div class="item_head">
+														<a href="">燕莎国贸</a>
+													</div>
+													<div class="item_content">
+														<a href="" class="fl orange">团结湖</a>
+														<span class="fl"></span>
+														<a href="" class="fl">世贸天阶</a>
+														<span class="fl"></span>
+														<a href="" class="fl">朝阳医院</a>
+														<span class="fl"></span>
+														<a href="" class="fl orange">建国门</a>
+													</div>
+												</li>
+												<li class="trade_item fl">
+													<div class="item_head">
+														<a href="">西单商圈</a>
+													</div>
+													<div class="item_content">
+														<a href="" class="fl orange">北京儿童医院</a>
+														<span class="fl"></span>
+														<a href="" class="fl">宣武门</a>
+														<span class="fl"></span>
+														<a href="" class="fl">宣武医院</a>
+														<span class="fl"></span>
+														<a href="" class="fl orange">牛街</a>
+													</div>
+												</li>
+												<li class="trade_item fl">
+													<div class="item_head">
+														<a href="">崇文门商圈</a>
+													</div>
+													<div class="item_content">
+														<a href="" class="fl">天坛公园</a>
+														<span class="fl"></span>
+														<a href="" class="fl">陶然亭</a>
+													</div>
+												</li>
+												<li class="trade_item fl">
+													<div class="item_head">
+														<a href="">天安门王府井</a>
+													</div>
+													<div class="item_content">
+														<a href="" class="fl orange">前门</a>
+														<span class="fl"></span>
+														<a href="" class="fl">天安门</a>
+														<span class="fl"></span>
+														<a href="" class="fl">王府井</a>
+														<span class="fl"></span>
+														<a href="" class="fl orange">北京协和医院</a>
+													</div>
+												</li>
+												<li class="trade_item fl">
+													<div class="item_head">
+														<a href="">亚运村</a>
+													</div>
+													<div class="item_content">
+														<a href="" class="fl">鸟巢</a>
+														<span class="fl"></span>
+														<a href="" class="fl">国家会议中心</a>
+														<span class="fl"></span>
+														<a href="" class="fl">安贞医院</a>
+													</div>
+												</li>
+												<li class="trade_item fl">
+													<div class="item_head">
+														<a href="">北京南站商圈</a>
+													</div>
+													<div class="item_content">
+														<a href="" class="fl orange">北京南站</a>
+														<span class="fl"></span>
+														<a href="" class="fl">大红门</a>
+														<span class="fl"></span>
+														<a href="" class="fl">木樨园</a>
+														<span class="fl"></span>
+														<a href="" class="fl orange">刘家窑</a>
+													</div>
+												</li>
+											</ul>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							<table class="brand_hotel">
+								<tbody>
+									<tr>
+										<td class="brand_head">
+											<span>品牌</span>
+										</td>
+										<td class="brand_content">
+											<ul class="brand_list">
+												<li class="trade_item fl">
+													<div class="item_head">
+														<a href="">经济型</a>
+													</div>
+													<div class="item_content">
+														<a href="" class="fl">锦江之星</a>
+														<span class="fl"></span>
+														<a href="" class="fl">桔子酒店</a>
+														<span class="fl"></span>
+														<a href="" class="fl orange">速8</a>
+														<span class="fl"></span>
+														<a href="" class="fl">汉庭酒店</a>
+													</div>
+												</li>
+												<li class="trade_item fl">
+													<div class="item_head">
+														<a href="">舒适型</a>
+													</div>
+													<div class="item_content">
+														<a href="" class="fl">桔子精选</a>
+														<span class="fl"></span>
+														<a href="" class="fl">里程</a>
+														<span class="fl"></span>
+														<a href="" class="fl">宜必思</a>
+														<span class="fl"></span>
+														<a href="" class="fl">智选假日</a>
+													</div>
+												</li>
+												<li class="trade_item fl">
+													<div class="item_head">
+														<a href="">高档豪华型</a>
+													</div>
+													<div class="item_content">
+														<a href="" class="fl">威斯汀</a>
+														<span class="fl"></span>
+														<a href="" class="fl">喜来登</a>
+														<span class="fl"></span>
+														<a href="" class="fl">柏悦</a>
+														<span class="fl"></span>
+														<a href="" class="fl">希尔顿逸林</a>
+													</div>
+												</li>
+											</ul>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="super_hotel">
+						<header class="hotel_head">
+							<h3 class="hotel_title fl">超值酒店</h3>
+							<nav class="hotel_nav fr">
+								<a href="" class="fl active">北京</a>
+								<a href="" class="fl">上海</a>
+								<a href="" class="fl">广州</a>
+								<a href="" class="fl">深圳</a>
+								<a href="" class="fl">成都</a>
+								<a href="" class="fl">杭州</a>
+								<a href="" class="fl">南京</a>
+								<a href="" class="fl">西安</a>
+								<a href="" class="fl">青岛</a>
+								<a href="" class="fl">武汉</a>
+								<a href="" class="fl">三亚</a>
+							</nav>
+						</header>
+						<div class="super_content">
+							<table class="super_hotel_type">
+								<tbody>
+									<tr>
+										<td class="hotel_type_head">
+											<span>经济型酒店</span>
+										</td>
+										<td class="hotel_type_content">
+											<ul class="super_list fl">
+												<li class="super_item clearfix">
+													<span class="price fl orange">¥50</span>
+													<a href="" class="hotel_name fl el">北京炮局工厂青年旅社</a>
+													<span class="hotel_place fl">
+															<span>位于:</span>
+													<a href="" class="el">东直门商圈</a>
+													</span>
+												</li>
+												<li class="super_item clearfix">
+													<span class="price fl orange">¥88</span>
+													<a href="" class="hotel_name fl el">易佰北京房山良乡南关地铁站店团购</a>
+													<span class="hotel_place fl">
+															<span>位于:</span>
+													<a href="" class="el">良乡</a>
+													</span>
+												</li>
+												<li class="super_item clearfix">
+													<span class="price fl orange">¥91</span>
+													<a href="" class="hotel_name fl el">99旅馆连锁北京平谷世纪广场店团购</a>
+													<span class="hotel_place fl">
+															<span>位于:</span>
+													<a href="" class="el">平谷区</a>
+													</span>
+												</li>
+												<li class="super_item clearfix">
+													<span class="price fl orange">¥106</span>
+													<a href="" class="hotel_name fl el">尚客优快捷酒店北京密云新中店团购</a>
+													<span class="hotel_place fl">
+															<span>位于:</span>
+													<a href="" class="el">密云区</a>
+													</span>
+												</li>
+											</ul>
+											<ul class="super_list fl brNone">
+												<li class="super_item clearfix">
+													<span class="price fl orange">¥110</span>
+													<a href="" class="hotel_name fl el">欣燕都连锁密云鼓楼大街店</a>
+													<span class="hotel_place fl">
+															<span>位于:</span>
+													<a href="" class="el">密云区</a>
+													</span>
+												</li>
+												<li class="super_item clearfix">
+													<span class="price fl orange">¥218</span>
+													<a href="" class="hotel_name fl el">金泰之家北京梅苑饭店</a>
+													<span class="hotel_place fl">
+															<span>位于:</span>
+													<a href="" class="el">北下关区域123</a>
+													</span>
+												</li>
+												<li class="super_item clearfix">
+													<span class="price fl orange">¥218</span>
+													<a href="" class="hotel_name fl el">格林豪泰北京学清路商务酒店</a>
+													<span class="hotel_place fl">
+															<span>位于:</span>
+													<a href="" class="el">清河区域 | 区域</a>
+													</span>
+												</li>
+												<li class="super_item clearfix">
+													<span class="price fl orange">¥328</span>
+													<a href="" class="hotel_name fl el">速八酒店北京西四皇城根店</a>
+													<span class="hotel_place fl">
+															<span>位于:</span>
+													<a href="" class="el">西四区域 | 区域</a>
+													</span>
+												</li>
+											</ul>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							<table class="super_hotel_type">
+								<tbody>
+									<tr>
+										<td class="hotel_type_head">
+											<span>超低价酒店</span>
+										</td>
+										<td class="hotel_type_content">
+											<ul class="super_list fl">
+												<li class="super_item clearfix">
+													<span class="price fl orange">¥1</span>
+													<a href="" class="hotel_name fl el">北京鼓韵国际青年旅舍</a>
+													<span class="hotel_place fl">
+															<span>位于:</span>
+													<a href="" class="el">后海、什刹海店</a>
+													</span>
+												</li>
+												<li class="super_item clearfix">
+													<span class="price fl orange">¥1</span>
+													<a href="" class="hotel_name fl el">北京时光青年旅社五道口地铁站店</a>
+													<span class="hotel_place fl">
+															<span>位于:</span>
+													<a href="" class="el">五道口、学府路</a>
+													</span>
+												</li>
+												<li class="super_item clearfix">
+													<span class="price fl orange">¥1</span>
+													<a href="" class="hotel_name fl el">北京创客空间青年旅社</a>
+													<span class="hotel_place fl">
+															<span>位于:</span>
+													<a href="" class="el">五道口、学府路</a>
+													</span>
+												</li>
+												<li class="super_item clearfix">
+													<span class="price fl orange">¥1</span>
+													<a href="" class="hotel_name fl el">北京印象青年旅社五道口地铁站店</a>
+													<span class="hotel_place fl">
+															<span>位于:</span>
+													<a href="" class="el">五道口、学府路</a>
+													</span>
+												</li>
+											</ul>
+											<ul class="super_list fl brNone">
+												<li class="super_item clearfix">
+													<span class="price fl orange">¥1</span>
+													<a href="" class="hotel_name fl el">北京小豆丁N9公寓丰台站9号店</a>
+													<span class="hotel_place fl">
+															<span>位于:</span>
+													<a href="" class="el">北大地区域酒店</a>
+													</span>
+												</li>
+												<li class="super_item clearfix">
+													<span class="price fl orange">¥1</span>
+													<a href="" class="hotel_name fl el">北京青年酒店南锣鼓巷店</a>
+													<span class="hotel_place fl">
+															<span>位于:</span>
+													<a href="" class="el">后海、什刹海店</a>
+													</span>
+												</li>
+												<li class="super_item clearfix">
+													<span class="price fl orange">¥5</span>
+													<a href="" class="hotel_name fl el">北京富山国际青年旅舍</a>
+													<span class="hotel_place fl">
+															<span>位于:</span>
+													<a href="" class="el">后海、什刹海店</a>
+													</span>
+												</li>
+												<li class="super_item clearfix">
+													<span class="price fl orange">¥9</span>
+													<a href="" class="hotel_name fl el">北京时光青年旅社</a>
+													<span class="hotel_place fl">
+															<span>位于:</span>
+													<a href="" class="el">六里桥地区</a>
+													</span>
+												</li>
+											</ul>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							<table class="super_hotel_type">
+								<tbody>
+									<tr>
+										<td class="hotel_type_head">
+											<span>豪华酒店</span>
+										</td>
+										<td class="hotel_type_content">
+											<ul class="super_list fl">
+												<li class="super_item clearfix">
+													<span class="price fl orange">¥834</span>
+													<a href="" class="hotel_name fl el">北京长富宫饭店</a>
+													<span class="hotel_place fl">
+															<span>位于:</span>
+													<a href="" class="el">建国门区域</a>
+													</span>
+												</li>
+												<li class="super_item clearfix">
+													<span class="price fl orange">¥857</span>
+													<a href="" class="hotel_name fl el">北京朝阳悠唐皇冠假日酒店</a>
+													<span class="hotel_place fl">
+															<span>位于:</span>
+													<a href="" class="el">朝外商圈 | 123</a>
+													</span>
+												</li>
+												<li class="super_item clearfix">
+													<span class="price fl orange">¥928</span>
+													<a href="" class="hotel_name fl el">北京新云南皇冠假日酒店</a>
+													<span class="hotel_place fl">
+															<span>位于:</span>
+													<a href="" class="el">芍药居区域酒店</a>
+													</span>
+												</li>
+												<li class="super_item clearfix">
+													<span class="price fl orange">¥968</span>
+													<a href="" class="hotel_name fl el">北京华彬费尔蒙酒店</a>
+													<span class="hotel_place fl">
+															<span>位于:</span>
+													<a href="" class="el">国贸地区</a>
+													</span>
+												</li>
+											</ul>
+											<ul class="super_list fl brNone">
+												<li class="super_item clearfix">
+													<span class="price fl orange">¥979</span>
+													<a href="" class="hotel_name fl el">北京富力万丽酒店</a>
+													<span class="hotel_place fl">
+															<span>位于:</span>
+													<a href="" class="el">国贸地区</a>
+													</span>
+												</li>
+												<li class="super_item clearfix">
+													<span class="price fl orange">¥1128</span>
+													<a href="" class="hotel_name fl el">北京王府井希尔顿酒店</a>
+													<span class="hotel_place fl">
+															<span>位于:</span>
+													<a href="" class="el">王府井商圈</a>
+													</span>
+												</li>
+												<li class="super_item clearfix">
+													<span class="price fl orange">¥1137</span>
+													<a href="" class="hotel_name fl el">北京东隅酒店</a>
+													<span class="hotel_place fl">
+															<span>位于:</span>
+													<a href="" class="el">朝阳区</a>
+													</span>
+												</li>
+												<li class="super_item clearfix">
+													<span class="price fl orange">¥1164</span>
+													<a href="" class="hotel_name fl el">北京励骏酒店</a>
+													<span class="hotel_place fl">
+															<span>位于:</span>
+													<a href="" class="el">朝阳门区域酒店</a>
+													</span>
+												</li>
+											</ul>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="hotel_banner">
+						<header class="banner_head">
+							<h3 class="banner_title">小编推荐·酒店广告精选</h3>
+						</header>
+						<ul class="banner_content clearfix">
+							<li class="banner_item fl">
+								<a href="" class="fl">
+									<img src="img/hotel_banner_img1.jpg" alt="" />
+								</a>
+							</li>
+							<li class="banner_item fl">
+								<a href="" class="fl">
+									<img src="img/hotel_banner_img2.jpg" alt="" />
+								</a>
+							</li>
+							<li class="banner_item fl">
+								<a href="" class="fl">
+									<img src="img/hotel_banner_img3.jpg" alt="" />
+								</a>
+							</li>
+							<li class="banner_item fl mr0">
+								<a href="" class="fl">
+									<img src="img/hotel_banner_img4.jpg" alt="" />
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="main_content_right fr">
+					<section class="login_box pr">
+						<a href="" class="about_sleeper pa"></a>
+						<div class="login_head">
+							<div class="user_head_wrap fl pr">
+								<a href="" class="user_head_pic pa">
+									<img src="img/user_defout.jpg" alt="" />
+								</a>
+								<a href="" class="head_pic_wrap pa"></a>
+							</div>
+							<div class="login_wrap fl">
+								<div class="text_wrap">
+									<p class="hello">HI,你好!</p>
+									<p class="text_tip">可以通过点评获得积分~</p>
+								</div>
+								<div class="login_btn_wrap clearfix">
+									<a href="" class="login_btn fl">登录</a>
+									<a href="" class="sign_btn fl">免费注册</a>
+								</div>
+							</div>
+						</div>
+						<div class="login_content">
+							<div class="sleeper_banner clearfix">
+								<a href="" class="fl">
+									<img src="img/sleeper_banner.jpg" alt="" />
+								</a>
+							</div>
+							<div class="my_comment">
+								<div class="comment_head">
+									<span class="teach fl">试睡员教你住酒店</span>
+									<span class="long_line fl of"></span>
+									<a href="" class="to_comment fl">我要点评</a>
+									<span class="short_line fr of"></span>
+								</div>
+								<div class="comment_content">
+									<div class="user fl">
+										<a href="" class="sleeper_pic_wrap fl">
+											<img src="img/sleeper_pic.jpg" alt="" />
+										</a>
+										<span class="sleeper_ico of">试睡员</span>
+									</div>
+									<div class="user_info fl">
+										<p class="user_info_head">将旅行渗透到生命中</p>
+										<p class="user_info_detail">
+											一组潜水美照让她霸占娱乐头条，然而率真、积极、不zuo,才是她的真实一面。就让星级试睡员蕾拉带你看世界吧!
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="gift">
+								<div class="gift_head">
+									<span class="hot_gift fl">积分商城热门好礼</span>
+									<span class="long_line fl of"></span>
+									<a href="" class="more_gift fl">更多好礼</a>
+									<span class="short_line fr of"></span>
+								</div>
+								<div class="gift_content">
+									<div class="canen fl">
+										<a href="" class="canen_pic_wrap fl">
+											<img src="img/canen_pic.jpg" alt="" />
+										</a>
+									</div>
+									<div class="canen_info fl">
+										<p class="canen_info_head clearfix">
+											<a href="" class="canen_type fl el">佳能5D Mark s4514567</a>
+											<span class="integrate_num fr orange">2000993积分</span>
+										</p>
+										<p class="canen_info_detail">
+											最全能的高端单反
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</section>
+		<footer class="foot">
+			<div class="foot_copyright wrap">
+				<div class="about_qunar di">
+					<a href="" class="about pr di">
+						关于Qunar.com
+						<i class="about_ico pa ico_bg of"></i>
+					</a> |
+					<a href="">投资者关系</a> |
+					<a href="">酒店加盟</a> |
+					<a href="">业务合作</a> |
+					<a href="">加入我们</a> |
+					<a href="" class="active">我要投诉</a> |
+					<a href="">安全中心</a> |
+					<a href="">星骆驼公益</a> |
+					<a href="">About Us</a>
+				</div>
+				<div class="CopyRight di">
+					Copyright ©2016 Qunar.com 京公网安备110108901530 京ICP备05021087号 营业执照信息 保险经纪资质 (京)-非经营性-2016-0110
+					<span class="tel pr di">
+							去哪儿网客服电话10101234
+							<i class="tel_ico pa ico_bg of"></i>
+						</span>
+				</div>
+				<div class="safe_reg clearfix di">
+					<a href="" class="ov_reg fl logo_bg"></a>
+					<a href="" class="pc_reg fl logo_bg"></a>
+					<a href="" class="internet_reg fl logo_bg"></a>
+					<a href="" class="sell_reg fl logo_bg"></a>
+					<a href="" class="faith_reg fl logo_bg"></a>
+					<a href="" class="id_reg fl logo_bg"></a>
+				</div>
+			</div>
+			<div class="hotel_link">
+				<dl class="hot_city_hotel clearfix">
+					<dt class="fl">热门城市酒店</dt>
+					<dd class="fl">
+						<a href="">北京酒店</a>
+					</dd>
+					<dd class="fl">
+						<a href="">三亚酒店</a>
+					</dd>
+					<dd class="fl">
+						<a href="">香港酒店</a>
+					</dd>
+					<dd class="fl">
+						<a href="">厦门酒店</a>
+					</dd>
+					<dd class="fl">
+						<a href="">杭州酒店</a>
+					</dd>
+					<dd class="fl">
+						<a href="">青岛酒店</a>
+					</dd>
+					<dd class="fl">
+						<a href="">上海酒店</a>
+					</dd>
+					<dd class="fl">
+						<a href="">澳门酒店</a>
+					</dd>
+					<dd class="fl">
+						<a href="">义乌酒店</a>
+					</dd>
+					<dd class="fl">
+						<a href="">深圳酒店</a>
+					</dd>
+					<dd class="fl">
+						<a href="">成都酒店</a>
+					</dd>
+					<dd class="fl">
+						<a href="">广州酒店</a>
+					</dd>
+					<dd class="fl">
+						<a href="">西安酒店</a>
+					</dd>
+					<dd class="fl">
+						<a href="">大连酒店</a>
+					</dd>
+					<dd class="fl">
+						<a href="">南京酒店</a>
+					</dd>
+					<dd class="fl">
+						<a href="">苏州酒店</a>
+					</dd>
+					<dd class="fl">
+						<a href="">长沙酒店</a>
+					</dd>
+					<dd class="fl">
+						<a href="">天津酒店</a>
+					</dd>
+					<dd class="fl">
+						<a href="">武汉酒店</a>
+					</dd>
+					<dd class="fl">
+						<a href="">重庆酒店</a>
+					</dd>
+					<dd class="fl">
+						<a href="">千岛湖酒店</a>
+					</dd>
+					<dd class="fl">
+						<a href="">珠海酒店</a>
+					</dd>
+					<dd class="fl">
+						<a href="">丽江酒店</a>
+					</dd>
+					<dd class="fl">
+						<a href="">桂林酒店</a>
+					</dd>
+					<dd class="fl">
+						<a href="">哈尔滨酒店</a>
+					</dd>
+					<dd class="fl">
+						<a href="">九寨沟酒店</a>
+					</dd>
+				</dl>
+				<div class="dashed_line of"></div>
+				<dl class="chain_hotel clearfix">
+					<dt class="fl">连锁酒店品牌</dt>
+					<dd class="fl">
+						<a href="">7天连锁</a>
+					</dd>
+					<dd class="fl">
+						<a href="">锦江之星</a>
+					</dd>
+					<dd class="fl">
+						<a href="">格林豪泰</a>
+					</dd>
+					<dd class="fl">
+						<a href="">香格里拉</a>
+					</dd>
+					<dd class="fl">
+						<a href="">速8</a>
+					</dd>
+					<dd class="fl">
+						<a href="">希尔顿</a>
+					</dd>
+					<dd class="fl">
+						<a href="">布丁</a>
+					</dd>
+					<dd class="fl">
+						<a href="">莫泰</a>
+					</dd>
+					<dd class="fl">
+						<a href="">维也纳</a>
+					</dd>
+					<dd class="fl">
+						<a href="">喜来登</a>
+					</dd>
+					<dd class="fl">
+						<a href="">宜必思</a>
+					</dd>
+					<dd class="fl">
+						<a href="">凯宾斯基</a>
+					</dd>
+					<dd class="fl">
+						<a href="">万豪</a>
+					</dd>
+					<dd class="fl">
+						<a href="">威斯汀</a>
+					</dd>
+					<dd class="fl">
+						<a href="">君悦</a>
+					</dd>
+					<dd class="fl">
+						<a href="">99连锁</a>
+					</dd>
+					<dd class="fl">
+						<a href="">城市便捷</a>
+					</dd>
+					<dd class="fl">
+						<a href="">皇冠假日</a>
+					</dd>
+				</dl>
+			</div>
+			<div class="friend_link">
+				<dl class="clearfix">
+					<dt class="fl">友情链接</dt>
+					<dd class="fl">
+						<a href="">成都旅行社</a> | </dd>
+					<dd class="fl">
+						<a href="">我爱出游网</a> | </dd>
+					<dd class="fl">
+						<a href="">住哪儿网</a> | </dd>
+					<dd class="fl">
+						<a href="">爱乐活</a> | </dd>
+					<dd class="fl">
+						<a href="">来订吧</a> | </dd>
+					<dd class="fl">
+						<a href="">腾邦国际</a> | </dd>
+					<dd class="fl">
+						<a href="">名鞋库</a> | </dd>
+					<dd class="fl">
+						<a href="">去哪儿网酒店微博</a> | </dd>
+					<dd class="fl">
+						<a href="">客运站</a> | </dd>
+					<dd class="fl">
+						<a href="">旅游攻略</a> | </dd>
+					<dd class="fl">
+						<a href="">去哪儿网租车</a> | </dd>
+					<dd class="fl">
+						<a href="">百度旅游</a>
+					</dd>
+				</dl>
+			</div>
+		</footer>
+	</body>
+</html>

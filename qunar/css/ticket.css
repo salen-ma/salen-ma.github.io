@@ -1,0 +1,655 @@
+body{
+	position:relative;
+	font-size:12px;
+	font-family: arial,"宋体";
+}
+
+.Nav_block{
+	position: fixed;
+	width:50px;
+	height:47px;
+	top:42px;
+	right:0;
+	background-position:0 -162px;
+	z-index:100;
+}
+.Side_APP_Download{
+	position: fixed;
+	width:122px;
+	height:140px;
+	top:489px;
+	left:0;
+	background:url(../img/collapsed.png) no-repeat;
+	z-index:100;
+}
+/*主体部分*/
+.main{
+	margin-bottom:32px;
+}
+/*主体头部*/
+.main_head{
+	height:336px;
+	background: url(../img/ticket_main_head_bg.jpg) no-repeat;
+	overflow:hidden;
+	margin-bottom:24px;
+}
+.main_head_content{
+	width:1200px;
+	height:322px;
+	padding-top:14px;
+	margin:0 auto;
+}
+.book_ticket{
+	width:615px;
+	height:310px;
+	padding:0 15px;
+	border:6px solid #00afc7;
+	background-color:#fff;
+}
+.book_ticket_head{
+	height:50px;
+}
+.book_ticket_title{
+	font-size:24px;
+	line-height:50px;
+	color:#000000;
+}
+.book_ticket_info{
+	padding-top:17px;
+	line-height:20px;
+	color:#333;
+}
+.book_ticket_info span{
+	color:#dc0000;
+}
+.ticket_type{
+	height:40px;
+	padding-left:10px;
+	line-height:40px;
+	border-bottom:1px solid #97d3d9;
+}
+.ticket_type a{
+	color:#999999;
+}
+.domestic_ticket,.internation_ticket{
+	height:40px;
+	padding:0 20px 0 21px;
+	font-size:14px;
+}
+.bottom_line{
+	width:100%;
+	height:2px;
+	background-color: #098cb5;
+	left:0;
+	bottom:-1px;
+	display:none;
+}
+.domestic_ticket:hover .bottom_line,.internation_ticket:hover .bottom_line,.domestic_ticket .active{
+	display:block;
+}
+.domestic_ticket:hover a,.internation_ticket:hover a,.domestic_ticket .active{
+	color:#3f3f3f;
+	font-weight: bold;
+}
+.my_ticket a{
+	position: relative;
+	padding-left:18px;
+}
+.my_ticket a:hover{
+	text-decoration:underline;
+}
+.my_ticket_ico{
+	width:12px;
+	height:15px;
+	left:2px;
+	top:10px;
+	background-position: -33px -99px;
+}
+.ticket_info{
+	height:199px;
+	padding:20px 30px 0 30px;
+	background-color:#f5fbfd;
+}
+.radio_wrap{
+	height:20px;
+	line-height:20px;
+	margin-bottom:13px;
+}
+.radio_wrap a{
+	color:#333333;
+	margin-right:20px;
+	padding-left:16px;
+}
+.radio1,.radio2{
+	width:13px;
+	height:13px;
+	left:0;
+	top:4px;
+}
+.radio1{
+	background-position: -176px 0;
+}
+.radio2{
+	background-position: -176px -18px;
+}
+.form{
+	width:549px;
+	height:96px;
+	padding-right:3px;
+	margin:0;                    /*form在IE6下有默认的下margin;*/
+}
+.form input{
+	width:154px;
+	height:28px;
+	padding:2px 50px 0 36px;
+	border:1px solid #abadb3;
+	line-height:28px;
+}
+.form div{
+	margin-bottom:16px;
+}
+.from,.go_date{
+	font-size:14px;
+	font-weight:bold;
+}
+.to{
+	color:#cccccc;
+}
+.text_label{
+	line-height:28px;
+	padding:2px 0 0 6px;
+	color:#999999;
+}
+.from_label,.to_label{
+	top:0;
+	left:6px;
+}
+.back_label{
+	top:0;
+	left:0;
+	color:#ddd;
+}
+.date_label{
+	line-height:30px;
+	color:#666;
+	top:0;
+	right:25px;
+}
+.go_label{
+	top:0;
+	right:210px;
+}
+.destination_ico{
+	width:12px;
+	height:15px;
+	top:6px;
+	right:7px;
+	background-position:-146px -23px;
+}
+.date_ico1,.date_ico2{
+	width:18px;
+	height:16px;
+	top:6px;
+	right:5px;
+}
+.date_ico1{
+	background-position:-33px -141px;
+}
+.date_ico2{
+	background-position:-33px -165px;
+}
+.bottom_wrap{
+	height:41px;
+}
+.hotline{
+	width:198px;
+	padding-left: 2px;
+	color:#757575;
+}
+.domestic_tel,.abroad_tel{
+	width:198px;
+}
+.hotline span{
+	color:#dc0000;
+}
+.day_tel{
+	line-height:19px;
+	padding-top:3px;
+}
+.tel_num{
+	font-size:14px;
+	line-height:22px;
+}
+.abroad_tel{
+	line-height:19px;
+}
+.defend{
+	padding-left:18px;
+	padding-right:12px;
+	line-height:36px;
+}
+.defend a{
+	color:#0084bb;
+}
+.defend a:hover{
+	color:#00a3d2;
+}
+.defend_ico{
+	width:14px;
+	height:18px;
+	left:0;
+	top:8px;
+	background-position:-88px -32px;
+}
+.search_ico{
+	width:132px;
+	height:38px;
+	padding-top:2px;
+	line-height:38px;
+	background-color:#ff5622;
+	text-align:center;
+	font-size:18px;
+	word-spacing:9px;
+	color:#fff;
+}
+.search_ico:hover{
+	background-color:#ff752b;
+}
+
+.main_head_banner{
+	width:464px;
+	height:320px;
+	right:0;
+	bottom:0;
+}
+/*主体内容*/
+.main_content{
+	width:1200px;
+	margin:0 auto;
+}
+/*主体左*/
+.main_content_left{
+	width:912px;
+}
+/*国际往返*/
+.internation_return{
+	height:445px;
+	margin-bottom: 23px;
+}
+.ticket_head{
+	height:44px;
+}
+.ticket_title{
+	font-size:24px;
+	line-height:44px;
+	color:#2a8dc3;
+}
+.dotted_ico{
+	width:8px;
+	height:8px;
+	left:49px;
+	top:18px;
+	background-position:-93px -115px;
+}
+.flyhead_ico{
+	width:176px;
+	height:57px;
+	left:243px;
+	top:-10px;
+	background-position:0 -193px;
+}
+.select{
+	height:42px;
+	padding-top:2px;
+	line-height:42px;
+}
+.select a{
+	color:#333333;
+	padding-right:19px;
+	margin-right: 18px;
+}
+.select i{
+	width:14px;
+	height:6px;
+	top:15px;
+	right:0;
+	background-position: -199px -69px;
+}
+.place_nav{
+	height:36px;
+	padding-top:8px;
+}
+.place_nav a{
+	height:24px;
+	padding:2px 10px 0 10px;
+	line-height:24px;
+	color:#333333;
+	margin-right:4px;
+}
+.place_nav a:nth-last-child(1){
+	margin-right:0;
+}
+.place_nav a:hover,.place_nav a:nth-child(1){
+	background-color:#26b4d3;
+	color:#fff;
+}
+.ticket_content_info{
+	width:868px;
+	padding:0 21px 21px 21px;
+	border:1px solid #e7e7e7;
+}
+.content_info_list{
+	height:324px;		/*UL不加高度在IE6下list会撑满content的高度*/
+	padding:13px 0;
+}
+.content_info_item{
+	height:38px;
+	width:398px;
+	line-height:38px;
+	color:#666666;
+}
+.content_info_item:nth-child(odd){
+	margin-right:62px;
+}
+.content_info_item:nth-child(7),.content_info_item:nth-child(8){
+	margin-bottom:20px;
+}
+.place_info{
+	width:200px;
+}
+.place_info span,.time_info span{
+	float:left;
+	font-size:14px;
+	font-weight:bold;
+	padding-right:37px;
+}
+.time_info{
+	font-size:12px;
+}
+.return_ico{
+	width:27px;
+	height:8px;
+	right:5px;
+	top:16px;
+	background-position:-146px -126px;
+}
+.price_info{
+	font-size:18px;
+	color:#ff6631;
+}
+.price_info .money{
+	padding-top:6px;
+	line-height:32px;
+	font-size:12px;
+}
+.more_cheap{
+	padding:2px 13px 0 13px;
+	height:28px;
+	line-height:26px;
+	background-color:#f7fcff;
+}
+.more_cheap a{
+	color:#26b4d3;
+}
+.more_ticket{
+	padding-right:39px;
+}
+.more_cheap .more_ticket span{
+	right:0;
+	top:0;
+	font-size:10px;
+	line-height:16px;
+	color:#fe0154;
+}
+.long_line{
+	width:1px;
+	height:288px;
+	background-color:#e7e7e7;
+	left:450px;
+	top:33px;
+}
+/*国际单程*/
+.internation_single{
+	height:445px;
+	margin-bottom: 24px;
+}
+.flyhead_ico2{
+	width:176px;
+	height:57px;
+	left:243px;
+	top:-10px;
+	background-position:0 -257px;
+}
+.single_place_info{
+	width:238px;
+}
+.single_place_info span,.domestic_place_info span{
+	float:left;
+	font-size:14px;
+	font-weight:bold;
+	padding-right:32px;
+}
+.time_info{
+	font-weight:bold;
+}
+.single_ico{
+	width:22px;
+	height:8px;
+	right:6px;
+	top:16px;
+	background-position:-146px -142px;
+}
+.more_single_ticket{
+	padding-right:19px;
+}
+.more_single_ticket i{
+	width:9px;
+	height:7px;
+	right:5px;
+	top:9px;
+	background-position:-199px -83px;
+}
+/*国内低价*/
+.domestic_cheap{
+	height:617px;
+	margin-bottom: 23px;
+}
+.domestic_place_nav{
+	padding-right:19px;
+}
+.more_ico{
+	width:9px;
+	height:7px;
+	right:0;
+	top:18px;
+	background-position:-199px -83px;
+}
+.domestic_content_info_list{
+	height:496px;
+}
+.domestic_place_info{
+	width:186px;
+}
+.domestic_time_info{
+	width:78px;
+}
+.discount_info{
+	font-size:14px;
+	font-weight:bold;
+	color:#4bc1db;
+}
+.item7,.item8{
+	margin-bottom:20px;
+}
+.more_cheap span{
+	color:#888888;
+}
+.more_long{
+	height:465px;
+}
+/*价格趋势*/
+.price_curve{
+	height:389px;
+}
+.curve_head_right{
+	padding-top:15px;
+	padding-right:10px;
+	line-height:24px;
+	color:#999999;
+}
+.city{
+	color:#000;
+	margin-right:9px;
+}
+.city_input_wrap{
+	margin-right:10px;
+}
+.city_input{
+	width:104px;
+	height:22px;
+	padding-left:28px;
+	padding-right:18px;
+	border:1px solid #abadb3;
+	color:#cccccc;
+	line-height:24px;
+}
+.text_info{
+	left:7px;
+	top:0;
+}
+.place_ico{
+	width:12px;
+	height:15px;
+	right:6px;
+	top:2px;
+	*top:4px;
+	background-position:-146px -23px;
+}
+.search{
+	width:56px;
+	height:20px;
+	padding-top:2px;
+	background-color:#0a53ed;
+	border-radius:1px;
+	line-height:20px;
+	color:#fff;
+	text-align:center;
+}
+.curve_content{
+	width:890px;
+	height:330px;
+	border:1px solid #e7e7e7;
+	padding:13px 10px 0 10px;
+}
+.cure_content_top{
+	height:28px;
+	padding:0 15px;
+}
+.content_top_left{
+	height:26px;
+	padding-top:2px;
+	line-height:26px;
+}
+.content_top_left span{
+	padding-left:18px;
+	padding-right:15px;
+	margin-right:75px;
+}
+.ticket1{
+	color:#0066dd;
+}
+.ticket2{
+	color:#d85d40;
+}
+.check_ico{
+	width:13px;
+	height:13px;
+	top:6px;
+	left:0;
+	background-position:-176px -75px;
+}
+.close_ico{
+	width:11px;
+	height:11px;
+	top:8px;
+	right:0;
+	background-position:-176px -96px;
+}
+.content_top_right{
+	height:28px;
+	line-height:28px;
+}
+.hot_map{
+	padding-right:15px;
+	color:#26b4d3;
+}
+.hot_map_ico{
+	width:9px;
+	height:9px;
+	top:0;
+	right:1px;
+	background-position:-176px -114px;
+}
+/*主体右*/
+.main_content_right{
+	width:272px;
+	padding-top:14px;
+}
+.notice_head{
+	height:38px;
+	padding-left:9px;
+	background-color:#f3f3f3;
+	font-size:14px;
+	line-height:38px;
+	color:#2b8fc5;
+}
+.notice_content{
+	padding:16px 13px 0 13px;
+	line-height:18px;
+	color:#666666;
+}
+.notice_list{
+	padding-left:12px;
+}
+.list_dotted_ico{
+	width:6px;
+	height:6px;
+	left:0;
+	top:6px;
+	background-position:-92px -127px;
+}
+/*页尾*/
+.foot_copyright{
+	height:111px;
+}
+.link{
+	width:934px;
+	height:131px;
+	padding-top:11px;
+	padding-left:25px;
+	margin:0 auto;
+	border-top:1px solid #dddddd;
+	color:#a7a7a7;
+}
+.link a{
+	line-height:14px;
+	color:#a7a7a7;
+}
+.link a:hover{
+	text-decoration:underline;
+}
+.link dl{
+	width:100%;
+}
+.link dt{
+	float:left;
+	height:45px;
+	font-weight:bold;
+	margin-right:14px;
+}
+.link dd{
+	float:left;
+	word-spacing:8px;
+	margin-right:7px;
+	white-space: nowrap;
+}

@@ -1,0 +1,217 @@
+/*
+ * 全局样式
+ * /
+ 
+/*头部*/
+.head{
+	height:73px;
+	border-bottom:2px solid #00afc7;
+}
+.head_content{
+	height:73px;
+}
+.head_left{
+	width:128px;
+	height:50px;
+	margin-top:15px;
+}
+.logo a{
+	width:128px;
+	padding-top:50px;
+	height:0;
+	overflow:hidden;
+}
+.head_right{
+	width:1052px;
+	height:73px;
+}
+/*登录条*/
+.loginBar{
+	height:26px;
+	width:499px;
+	line-height:26px;
+}
+.login{
+	word-spacing:-2px;
+}
+.loginBar a{
+	color:#666666;
+}
+.loginBar a:hover,.login a{
+	color:#0084bb;
+}
+.news{
+	padding-left:16px;
+}
+.news,.order{
+	padding-right:12px;
+}
+.english{
+	padding-left:20px;
+	word-spacing:-2px;
+}
+.news .mail{			/*IE6里用overflow处理最小高度问题后,定位的上下方向会有偏差,用hack进行更改*/
+	width:10px;
+	height:8px;
+	left:0;
+	top:10px;
+	*top:8px;
+	background-position:-54px -110px;
+}
+.tangle{
+	width:6px;
+	height:4px;
+	top:12px;
+	*top:10px;
+	right:0;
+	background-position:-199px -58px;
+}
+.flag{
+	width:19px;
+	height:13px;
+	left:0;
+	top:8px;
+	*top:6px;
+	background-position:-115px 0;
+}
+.loginBar .line{
+	width:1px;
+	height:11px;
+	background-color:#dddddd;
+	vertical-align:top;
+	margin:9px 11px 0 9px;
+}
+/*顶导航*/
+.topNav_wrap{
+	height:47px;
+	width:100%;
+}
+.topNav{
+	height:32px;
+	padding-top:15px;
+	font-size:16px;
+	line-height:32px;
+	word-spacing:13px;
+	font-weight:bold;
+}
+.topNav a{
+	color:#3c3c3c;
+}
+.topNav a:hover,.topNav .active{
+	color:#0096c1;
+}
+.low_price{
+	width:137px;
+	height:35px;
+	margin-top:12px;
+	background-position:0 -60px;
+}
+.guarantee{
+	width:47px;
+	height:17px;
+	left:-8px;
+	top:-21px;
+	background-position:0 -57px;
+}
+
+/*广告图标*/
+.banner_ico,.banner_ico_bg,.ico_text{
+	width:49px;
+	height:16px;
+	left:0;
+	bottom:0;
+}
+.banner_ico_bg{
+	background-color: #58747f;
+	opacity:0.5;
+}
+.ico_text{
+	height:14px;
+	padding-top:2px;
+	line-height:14px;
+	color:#c9cdcd;
+	text-indent:23px;
+}
+.camel_ico{
+	width:16px;
+	height:10px;
+	left:1px;
+	top:3px;
+	background-position: -54px -124px;
+}
+
+/*页尾*/
+.foot_copyright{
+	height:142px;
+	padding-top:14px;
+	text-align:center;
+	color:#999999;
+}
+.foot_copyright a{
+	color:#999999;
+}
+.foot_copyright a:hover,.foot .active{
+	color:#ff5555;
+}
+.about_qunar,.CopyRight{
+	height:30px;
+	margin:0 auto;
+	line-height:30px;
+}
+.CopyRight{
+	margin-bottom:7px;
+}
+.about_qunar{
+	color:#bb99bb;
+}
+.about{
+	padding-right:17px;
+}
+.about_ico{
+	width:6px;
+	height:4px;
+	top:13px;
+	right:2px;
+	background-position:-199px -58px;;
+}
+.tel{
+	padding-left:20px;
+}
+.tel_ico{
+	width:16px;
+	height:15px;
+	left:0;
+	top:7px;
+	background-position: -115px -38px;
+}
+.safe_reg{
+	margin:0 auto;
+}
+.safe_reg a{
+	height:30px;
+	margin-right:10px;
+}
+.ov_reg{
+	width:102px;
+	background-position: -170px 0;
+}
+.pc_reg{
+	width:49px;
+	background-position: -170px -40px;
+}
+.internet_reg{
+	width:91px;
+	background-position: -170px -80px;
+}
+.sell_reg{
+	width:78px;
+	background-position: -170px -120px;
+}
+.faith_reg{
+	width:87px;
+	background-position: -170px -160px;
+}
+.id_reg{
+	width:87px;
+	background-position:-170px -200px;
+}

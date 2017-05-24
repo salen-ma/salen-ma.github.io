@@ -1,0 +1,29 @@
+/*
+ * 处理默认样式
+*/
+body,h1,h3,h4,h6,dl,dd,p{
+	margin:0;
+}
+ul,ol{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+img{
+	vertical-align:top;
+	border:none;
+}
+a{
+	text-decoration:none;
+}
+input{
+	margin:0;
+	padding:0;
+	border:none;
+}
+table{
+	border-collapse:collapse;
+}
+th, td{
+	padding: 0;
+}

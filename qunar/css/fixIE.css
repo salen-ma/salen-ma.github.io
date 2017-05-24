@@ -1,0 +1,78 @@
+
+.loginBar .line{
+	margin-top:5px;
+	overflow:hidden;
+}
+.Nav_block,.Side_APP_Download{
+	position:absolute;
+}
+.news .mail,.tangle,.flag,.guarantee,.bottom_line{
+	overflow:hidden;
+}
+.of{
+	overflow:hidden;
+}
+.topNav{
+	word-spacing:10px;
+}
+.ticket_item{
+	width:240px;
+	height:37px;
+}
+.xm,.sh{
+	margin-right:0;
+}
+.ticket_item .to_date{
+	top:2px;
+}
+.banner_ico_bg,.copyright_text,.hot_bg{
+	filter:alpha(opacity=50);
+}
+.right_item,.hot_right_item,.admission_right_item{
+	display:inline;
+}
+.di{
+	display:inline;
+}
+.strategy_foot_left{
+	width:436px;
+}
+.strategy_foot_right{
+	width:488px;
+}
+.book_foot{
+	padding-top:19px;
+}
+.btn_wrap{
+	padding-top:12px;
+	height:40px;
+}
+.insurance{
+	margin-right:13px;
+}
+.guarantee{
+	height:16px;
+	top:-13px;
+}
+.place_nav .last{
+	margin-right:0;
+}
+.place_nav a:hover,.place_nav .active{
+	background-color:#26b4d3;
+}
+.dotted_ico{
+	left:53px;
+}
+.content_info_item{
+	margin-right:62px;
+}
+.mr0{
+	margin-right:0;
+}
+.text_info{
+	left:7px;
+	top:2px;
+}
+.curve_head_right{
+	width:410px;
+}

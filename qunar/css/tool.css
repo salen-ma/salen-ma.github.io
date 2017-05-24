@@ -1,0 +1,43 @@
+/*
+ * 工具样式表
+ */
+.wrap{
+	width:1200px;
+	margin:0 auto;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.pr{
+	position:relative;
+}
+.pa{
+	position:absolute;
+}
+.db{
+	display:block;
+}
+.di{
+	display:inline-block;
+}
+.logo_bg{
+	background-image:url(../img/logo.png);
+	background-repeat: no-repeat;
+}
+.ico_bg{
+	background-image:url(../img/ico.png);
+	background-repeat: no-repeat;
+}
+.el{
+	text-overflow: ellipsis;       /*IE6下文字省略效果不兼容*/
+	white-space: nowrap;
+	overflow: hidden;
+}

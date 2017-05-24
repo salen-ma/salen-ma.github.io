@@ -1,0 +1,1123 @@
+/*
+ * 首页样式
+ */
+
+body{
+	position:relative;
+	font-size:12px;
+	font-family: arial,"宋体";
+}
+/*导航块*/
+.Nav_block{
+	position:fixed;
+	width:49px;
+	height:47px;
+	top:42px;
+	left:0px;
+	background-position:0 -105px;
+}
+/*主体*/
+.main{
+	padding-top:15px;
+	margin-bottom:124px;
+}
+.content_head{
+	height:425px;
+	margin-bottom:17px;
+}
+.head_top{
+	height:320px;
+	margin-bottom:15px;
+}
+/*机票*/
+.ticket{
+	width:690px;
+	height:308px;
+	padding-right:20px;
+	border:6px solid #00afc7;
+}
+.sideNav{
+	width:72px;
+	height:308px;
+	background-color: #00afc7;
+}
+.sideNav a{
+	width:72px;
+	height:44px;
+	font-size:14px;
+	line-height:42px;
+	text-align:center;
+	background-color:#00afc7;
+	color:#fff;
+	background-position:0 42px;
+}
+.sideNav a:hover,.sideNav .active{
+	height:44px;
+	background-color: #fff;
+	color:#00afc7;
+}
+.ticket_info{
+	width:602px;
+	height:308px;
+}
+.ticket_type{
+	height:40px;
+	padding-top:5px;
+	line-height:40px;
+	border-bottom:1px solid #97d3d9;
+}
+.ticket_type a{
+	color:#999999;
+}
+.domestic_ticket,.internation_ticket{
+	height:40px;
+	padding:0 20px 0 21px;
+	font-size:14px;
+}
+.bottom_line{
+	width:100%;
+	height:2px;
+	background-color: #098cb5;
+	left:0;
+	bottom:-1px;
+	display:none;
+}
+.domestic_ticket:hover .bottom_line,.internation_ticket:hover .bottom_line,.domestic_ticket .active{
+	display:block;
+}
+.domestic_ticket:hover a,.internation_ticket:hover a,.domestic_ticket .active{
+	color:#3f3f3f;
+	font-weight: bold;
+}
+.ticket_condition a{
+	position: relative;
+	padding-left:18px;
+}
+.ticket_condition a:hover{
+	text-decoration:underline;
+}
+.ticket_condition .condition_search{
+	padding-right:17px;
+}
+.ticket_search{
+	width:14px;
+	height:13px;
+	left:0;
+	top:11px;
+	background-position:-33px -79px;
+}
+.ticket_change{
+	width:12px;
+	height:15px;
+	left:2px;
+	top:10px;
+	background-position: -33px -99px;
+}
+.type_content{
+	height:180px;
+	padding:12px 31px 21px 30px;
+	background-color: #f4fbfc;
+}
+.radio{
+	height:36px;
+	line-height:36px;
+	color:#000;
+}
+.radio a{
+	width:12px;
+	height:12px;
+}
+.single_box,.return_box{
+	padding-left:22px;
+	padding-right:27px;
+}
+.single{
+	left:0;
+	top:13px;
+	background-position: -176px -38px;
+}
+.return{
+	left:0;
+	top:13px;
+	background-position:-176px -54px;
+}
+.change_ico{
+	width:22px;
+	height:55px;
+	left:270px;
+	top:67px;
+	background-position:0 -79px;
+}
+.change_ico a{
+	width:15px;
+	height:16px;
+	line-height:16px;
+	text-align:center;
+	left:7px;
+	top:20px;
+	color:#fff;
+	background-color:#999999;
+}
+.change_ico a:hover{
+	background-color:#00afc7;
+}
+.ticket_item{
+	margin-right:61px;
+	margin-bottom:15px;
+}
+.start,.arrive{
+	margin-right:0;
+}
+.ticket_item input{
+	width:182px;
+	height:35px;
+	padding-left:35px;
+	padding-right:21px;
+	border:1px solid #cccccc;
+	background-color: #fff;
+}
+.ticket_item input{
+	height:34px;
+	padding-top:1px;
+	line-height:34px;
+	font-size:12px;
+	color:#333333;
+	font-weight:bold;
+}
+.ticket_item .start_city{
+	font-size:14px;
+}
+.ticket_item .arrive_city{
+	height:32px;
+	padding-top:3px;
+	line-height:32px;
+	color:#cccccc;
+	font-weight: normal;
+}
+.ticket_item span{
+	height:34px;
+	line-height:34px;
+	color:#999999;
+	left:5px;
+	top:1px;
+}
+.ticket_item .to_date{
+	width:35px;
+	height:35px;
+	text-indent:5px;
+	color:#dddddd;
+	left:1px;
+	top:1px;
+	background-color:#fbfbfb;
+}
+.ticket_item a{
+	width:16px;
+	height:13px;
+	top:12px;
+	right:6px;
+}
+.ticket_item .from_ico,.ticket_item .to_ico{
+	background-position:-54px -52px;
+}
+.ticket_item .from_date_ico{
+	background-position:-54px -70px;
+}
+.ticket_item .to_date_ico{
+	background-position:-54px -90px;
+}
+.search{
+	width:100%;
+	height:40px;
+}
+.search_info{
+	height:38px;
+	padding-top:2px;
+	line-height:38px;
+	color:#666;
+}
+.search a{
+	width:132px;
+	height:40px;
+	text-align:center;
+	font-size:18px;
+	line-height:40px;
+	color:#fff;
+	background-color: #ff5722;
+}
+.certification{
+	height:44px;
+	padding-left:33px;
+	font-size:14px;
+	line-height:44px;
+	color:#15a4c9;
+}
+.certi_line{
+	width:1px;
+	height:15px;
+	margin:0 9px;
+	margin-top:15px;
+	background-color: #e1e1e1;
+	vertical-align:top;
+}
+.ensure{
+	padding-left:30px;
+	word-spacing:7px;
+	color:#0c789f;
+}
+.ensure_ico{
+	width:21px;
+	height:27px;
+	left:0;
+	top:10px;
+	background-position:-85px 0;
+}
+.ensure_dotted{
+	width:6px;
+	height:6px;
+	left:118px;
+	top:20px;
+	background-position:-92px -114px;
+}
+.regular{
+	padding-left:22px;
+}
+.regular_ico{
+	width:18px;
+	height:14px;
+	left:0;
+	top:16px;
+	background-position: -88px -74px;
+}
+.pay_safe,.after_sale{
+	padding-left:21px;
+}
+.pay_ico,.after_ico{
+	width:14px;
+	height:15px;
+	left:0;
+	top:16px;
+	background-position: -88px -55px;
+}
+.after_ico{
+	background-position: -88px -93px;
+}
+/*广告*/
+.cloth_banner a{
+	width:464px;
+	height:320px;
+}
+/*大广告*/
+.head_bottom{
+	height:90px;
+}
+.head_bottom a{
+	width:100%;
+	height:90px;
+}
+/*内容主体*/
+.content_body{
+	height:4587px;
+}
+/*左半部分*/
+.body_left{
+	width:945px;
+	height:4587px;
+}
+/*今日特惠*/
+.today_special{
+	height:568px;
+	margin-bottom:13px;
+}
+.special_head{
+	height:39px;
+	border-bottom:2px solid #00afc7;
+	margin-bottom:15px;
+	background-color:#fff;
+}
+.special_nav a{
+	height:32px;
+	padding-top:1px;
+	padding:0 13px;
+	background-color:#fff;
+	font-size:16px;
+	line-height:32px;
+	color:#3bb0d0;
+}
+.special_nav a:hover,.special_nav .active{
+	color:#fff;
+	background-color:#3bb0d0;
+	font-weight:bold;
+}
+.sub_more_wrap{
+	width:42px;
+}
+.sub_more{
+	height:38px;
+	padding-top:1px;
+	line-height:38px;
+	color:#666666;
+}
+.more_ico{
+	width:5px;
+	height:9px;
+	left:36px;
+	top:15px;
+	background-position:-199px -32px;
+}
+.left_list{
+	width:430px;
+}
+.left_item{
+	width:428px;
+	height:238px;
+	border:1px solid #eeeeee;
+	margin-bottom:16px;
+}
+.img_wrap{
+	width:246px;
+}
+.text_wrap{
+	height:238px;
+	width:182px;
+}
+.tour_place{
+	width:182px;
+	height:65px;
+	padding-top:11px;
+	font-size:20px;
+	line-height:28px;
+	color:#fff;
+	font-weight: bold;
+	background-color:#3bb0d0;
+}
+.tour_place span{
+	width:182px;
+	text-align:center;
+}
+.tour_info{
+	width:160px;
+	height:63px;
+	padding:12px 12px 0 10px;
+	font-size:14px;
+	line-height:21px;
+	color:#555555;
+	margin-bottom:43px;
+}
+.tour_price{
+	width:168px;
+	line-height:44px;
+	font-size:16px;
+	font-weight:bold;
+	padding-left:14px;
+	color:#ff5555;
+}
+.item_wrap{
+	cursor: pointer;
+}
+.left_item:hover,.right_item:hover,.hot_right_item:hover,.admission_right_item:hover{
+	border-color:#00afc7;
+}
+.right_list{
+	width:515px;
+}
+.right_item{
+	width:240px;
+	height:238px;
+	border:1px solid #eeeeee;
+	margin-left:15px;
+	margin-bottom:16px;
+}
+ .admission_item_wrap{
+	height:277px;
+}
+.right_item_wrap img{
+	margin-bottom:7px;
+}
+.right_item_wrap span{
+	display:block;
+	padding-left:10px;
+}
+.right_place{
+	font-size:14px;
+	line-height:28px;
+	color:#333333;
+	font-weight:bold;
+}
+.right_info{
+	line-height:26px;
+	color:#999999;
+}
+.right_price{
+	line-height:30px;
+	font-size:16px;
+	color:#ff5588;
+	font-weight:bold;
+}
+/*广告*/
+.hotel_banner{
+	height:288px;
+	margin-bottom:20px;
+}
+.circle_wrap{
+	width:100%;
+	height:16px;
+	left:0;
+	bottom:24px;
+	text-align:center;
+}
+.circle{
+	height:16px;
+}
+.circle a{              
+	width:16px;			
+	height:16px;		
+	margin:0 4px;
+	border-radius:8px;
+	background-color:#999999;
+}
+.circle a:hover,.circle .active{
+	background-color:#ff4500;
+}
+/*广告*/
+.card_banner{
+	height:90px;
+	margin-bottom:3px;
+}
+/*当季热门度假*/
+.hot_holiday{
+	height:613px;
+	margin-bottom:11px;
+}
+.sub_head{
+	height:42px;
+	border-bottom:2px solid #00afc7;
+	margin-bottom:15px;
+}
+.sub_title{
+	font-size:24px;
+	line-height:42px;
+	color:#00bedd;
+}
+.hot_content_left{
+	width:177px;
+}
+.hot_left_item{
+	border:1px solid #e2f3f8;
+	margin-bottom: 11px;
+}
+.left_item_head{
+	font-size:14px;
+	line-height:30px;
+	padding-left: 10px;
+	color:#0286a0;
+	font-weight:bold;
+	background-color: #e2f3f8;
+}
+.left_item_content{
+	padding:8px 15px 12px 10px;
+	line-height:25px;
+	word-spacing: 9px;
+}
+.left_item_content a{
+	color:#666666;
+	white-space: nowrap;
+}
+.left_item_content a:hover{
+	color:#00a3d2;
+}
+.hot_content_right{
+	width:766px;
+}
+.hot_right_item{
+	width:240px;
+	height:262px;
+	border:1px solid #e2f3f8;
+	margin-left:13px;
+	margin-bottom:13px;
+}
+.hot_right_place{
+	padding-left:10px;
+	font-size:14px;
+	line-height:50px;
+	color:#666666;
+	font-weight:bold;
+	margin-bottom:12px;
+}
+.hot_right_price{
+	padding-left:10px;
+	font-size:16px;
+	line-height:40px;
+	color:#ff5555;
+	font-weight:bold;
+}
+.hot_sale{
+	width:50px;
+	height:45px;
+	top:0;
+	right:10px;
+	background-position: 0 -7px;
+}
+.hot_bg_wrap,.hot_bg,.hot_text{
+	width:129px;
+	height:61px;
+	left:55px;
+	bottom:102px;
+}
+.hot_bg,.hot_text{
+	left:0;
+	bottom:0;
+}
+.hot_bg{
+	background-color: #000;
+	opacity: 0.5;
+}
+.hot_text{
+	height:55px;
+	padding-top: 6px;
+}
+.big_text,.small_text{
+	width:129px;
+	text-align: center;
+}
+.big_text{
+	font-size: 20px;
+	line-height: 30px;
+	color:#fff;
+	font-weight: bold;
+}
+.small_text{
+	font-size: 14px;
+	line-height: 20px;
+	color:#dfde00;
+	font-weight: bold;
+}
+/*当季景点门票*/
+.admission_ticket{
+	height:640px;
+	margin-bottom:9px;
+}
+.admission_content_left{
+	width:177px;
+}
+.admission_left_item{
+	border:1px solid #e2f3f8;
+	margin-bottom: 14px;
+}
+.admission_item_head{
+	font-size:14px;
+	line-height:30px;
+	padding-left: 10px;
+	color:#0286a0;
+	font-weight:bold;
+	background-color: #e2f3f8;
+}
+.admission_item_content{
+	padding:6px 15px 3px 10px;
+	line-height:28px;
+	word-spacing: 9px;
+}
+.admission_item_content a{
+	color:#666666;
+	white-space: nowrap;
+}
+.admission_item_content a:hover{
+	color:#00a3d2;
+}
+.abroad{
+	word-spacing:12px;
+}
+.admission_content_right{
+	width:768px;
+}
+.admission_right_item{
+	width:240px;
+	height:277px;
+	border:1px solid #e2f3f8;
+	margin-left:14px;
+	margin-bottom:12px;
+}
+.disney{
+	width:496px;
+	height:277px;
+	border:1px solid #e2f3f8;
+}
+.admission_banner_ico{
+	width:49px;
+	height:16px;
+	right:0;
+	bottom:0;
+}
+.copyright_text{
+	line-height:14px;
+	color:#fff;
+	left:13px;
+	bottom:10px;
+	opacity: 0.5;
+}
+/*超值酒店团购推荐*/
+.hotel_recommend{
+	height:681px;
+	margin-bottom:8px;
+}
+.sub_nav_wrap{
+	width:100%;
+	margin-bottom:10px;
+}
+.sub_nav a{
+	height:26px;
+	padding:2px 10px 0 10px;
+	margin-right:18px;
+	line-height: 26px;
+	color:#666666;
+	background-color: #fff;
+}
+.sub_nav a:hover,.sub_nav .active{
+	color:#fff;
+	background-color: #3bb0d0;
+}
+.recommend_more{
+	padding-top:0;
+	height:20px;
+	line-height:20px;
+}
+.recommend_more_ico{
+	top:4px;
+}
+.recommend_content_left{
+	width:177px;
+}
+.recommend_left_item{
+	border:1px solid #e2f3f8;
+	margin-bottom:20px;
+}
+.recommend_item_head{
+	font-size:14px;
+	line-height:30px;
+	padding-left: 10px;
+	color:#0286a0;
+	font-weight:bold;
+	background-color: #e2f3f8;
+}
+.recommend_item_content{
+	padding:8px 15px 12px 10px;
+	line-height:25px;
+}
+.recommend_item_content a{      /*用浮动会多复制文字*/
+	display:inline-block;
+	width:69px;
+	color:#666666;
+	white-space:nowrap;
+}
+.recommend_item_content a:hover{
+	color:#00a3d2;
+}
+.recommend_item_wrap img{
+	margin-bottom:5px;
+}
+.recommend_text_wrap{
+	width:220px;
+	padding:0 10px;
+}
+.recommend_right_place{
+	width:220px;  				/*给文字父级元素加上宽度,在IE6下省略才生效*/
+	font-size:14px;
+	line-height:28px;
+	color:#666666;
+	font-weight:bold;
+}
+.recommend_right_info{
+	line-height:26px;
+	color:#999999;
+}
+.wifi{
+	width:16px;
+	height:12px;
+	left:45px;
+	top:7px;
+	background-position:-146px -64px;
+}
+.tv{
+	width:17px;
+	height:14px;
+	left:72px;
+	top:6px;
+	background-position:-146px -103px;
+}
+.shower{
+	width:16px;
+	height:14px;
+	left:99px;
+	top:6px;
+	background-position:-146px -83px;
+}
+.address{
+	width:204px;
+	padding-left:16px;
+	line-height:22px;
+	color:#999999;
+	margin-bottom:2px;
+}
+.location{
+	width:9px;
+	height:14px;
+	left:1px;
+	top:4px;
+	background-position:-146px -44px;
+}
+.recommend_right_price .price{
+	font-size:16px;
+	line-height:34px;
+	color:#ff5555;
+	font-weight:bold;
+}
+.recommend_right_price span{
+	color:#666666;
+}
+.buy_num{
+	padding-top:4px;
+	line-height:30px;
+}
+.buy_num span{
+	color:#aaaaaa;
+}
+.buy_num .num{
+	color:#ff5555;
+}
+/*特色公寓*/
+.special_flat{
+	height:533px;
+	margin-bottom:11px;
+}
+.flat_content{
+	margin-right: -14px;
+}
+.flat_item{
+	width:240px;
+	height:206px;
+	overflow: hidden;
+	margin-right:14px;
+	margin-bottom: 12px;
+}
+.sy,.lj{
+	width:433px;
+	height:206px;
+}
+.flat_info{
+	line-height:22px;
+	color:#fff;
+	left:10px;
+	bottom:0;
+	font-weight: bold;
+}
+/*旅游攻略*/
+.tourism_strategy{
+	height:535px;
+	margin-bottom:16px;
+}
+.sub_title_info{
+	padding-top:6px;
+	padding-left:24px;
+	line-height:36px;
+	color:#999999;
+}
+.sub_head_right{
+	height:38px;
+	padding-top:4px;
+	line-height: 38px;
+	font-size: 16px;
+}
+.sub_head_right a{
+	color:#00afc7;
+	padding-left: 24px;
+}
+.sub_head_right .line{
+	width:1px;
+	height:14px;
+	background-color:#ccc;
+	margin:0 20px; 
+	margin-top:12px;
+}
+.route_ico{
+	width:19px;
+	height:18px;
+	left:0;
+	top:10px;
+	background-position: -54px -7px;
+}
+.travels_ico{
+	width:18px;
+	height:18px;
+	left:0;
+	top:10px;
+	background-position: -54px -29px;
+}
+.strategy_content{
+	margin-bottom:6px;
+	margin-right:-14px;
+}
+.strategy_item{
+	width:241px;
+	height:158px;
+	overflow:hidden;
+	margin-right:14px;
+	margin-bottom:15px;
+}
+.hot_tourism{
+	width:434px;
+	height:331px;
+	overflow:hidden;
+}
+.strategy_foot_left{
+	width:448px;
+}
+.strategy_foot_right{
+	width:496px;
+}
+.domestic_hot,.abroad_hot{
+	height:24px;
+	padding-left:8px;
+	border-left:3px solid #00add1;
+	font-size:16px;
+	line-height: 24px;
+	color:#666666;
+	font-weight:bold;
+}
+.domestic_hot_list,.abroad_hot_list{    /*宽100%再加左右方向的padding或margin会超出父级宽度*/
+	padding-left:7px;
+	border-left:3px solid #eaeaea;
+}
+.domestic_hot_list{
+	width:438px;
+}
+.abroad_hot_list{						/*IE6下不给宽度会出问题*/
+	width:486px;
+}
+.domestic_hot_item,.abroad_hot_item{
+	width:213px;
+	height:16px;
+	padding-top:12px;
+	line-height: 16px;
+}
+.abroad_hot_item{
+	width:243px;
+}
+.hot_tour_place{
+	color:#666;
+}
+.hot_tour_place:hover,.hot_tour_place .place{
+	color:#00add1;
+}
+/*骆驼书*/
+.camel_book{
+	height:528px;
+	margin-bottom:19px;
+}
+.book_content{
+	margin-bottom:19px;
+	margin-right:-16px;
+}
+.book_theme{
+	width:176px;
+	height:339px;
+	overflow:hidden;
+	margin-right:16px;
+}
+.book_item{
+	width:240px;
+	height:339px;
+	overflow:hidden;
+	margin-right:16px;
+}
+.book_foot_left{
+	width:450px;
+}
+.book_foot_right{
+	width:494px;
+}
+.exit_hot,.island_hot{
+	height:26px;
+	font-size:16px;
+	line-height: 26px;
+	color:#666666;
+	font-weight:bold;
+}
+.exit_hot_list,.island_hot_list{
+	width:100%;
+}
+.exit_hot_item,.island_hot_item{
+	width:220px;
+	height:24px;
+	line-height:24px;
+}
+.island_hot_item{
+	width:240px;
+}
+/*右半部分*/
+.body_right{
+	width:240px;
+	height:4549px;
+	padding-top:38px;
+}
+/*公告*/
+.notice{
+	height:279px;
+	border:1px solid #eeeeee;
+	margin-bottom:20px;
+}
+.notice_head,.tips_head{
+	height:20px;
+	line-height:20px;
+	padding-top:3px;
+	padding-left:8px;
+	color:#333;
+	border-bottom:1px solid #eee;
+	background-color:#fcfefe;
+}
+.notice_content_top,.tips_content{
+	padding:14px 0 11px 8px;
+	line-height:21px;
+	border-bottom:1px solid #eee;
+}
+.tips_content{
+	border-bottom:none;
+}
+.notice_content_top a,.tips_content a{
+	color:#999999;
+}
+.notice_content_top a:hover,.tips_content a:hover{
+	text-decoration: underline;
+}
+.notice_content_bottom{
+	padding:14px 8px 12px 8px;
+	line-height:24px;
+	color:#999999;
+}
+.notice_content_bottom dt,.notice_content_bottom dd{
+	width:100%;
+}
+.qunar_tel{
+	color:#777;
+	font-weight: bold;
+}
+.qunar_service{
+	padding-left:20px;
+	color:#555;
+}
+.service_ico{
+	width:16px;
+	height:15px;
+	left:0;
+	top:5px;
+	background-position:-115px -38px;
+}
+.tel_num{
+	color:#cb0101;
+}
+/*广告推荐*/
+.banner_recommend{
+	height:932px;
+	padding:0 6px;
+	margin-bottom:8px;
+	background-color:#f9fbfb;
+}
+.banner_head{
+	height:40px;
+	line-height: 40px;
+	color:#666;
+	margin-bottom: 12px;
+}
+.banner_item{
+	width:228px;
+	height:88px;
+	overflow:hidden;
+	background-color: #fff;
+	margin-bottom: 18px;
+}
+.weijing{
+	margin-bottom: 14px;
+}
+.banner_wrap{
+	width:111px;
+	height:74px;
+	padding:7px;
+}
+.banner_name{
+	line-height:26px;
+	color:#333333;
+}
+.banner_info{
+	line-height:16px;
+	color:#999999;
+}
+.hot_banner{
+	width:218px;
+	height:460px;
+	padding:0 5px;
+}
+/*小贴士*/
+.tour_tips{
+	height:91px;
+	border:1px solid #eeeeee;
+}
+/*内容底部*/
+.content_foot{
+	height:88px;
+	overflow: hidden;
+	border:1px solid #ddd;
+}
+
+/*底部*/
+.APP_Download{
+	height:200px;
+	background-color:#009fbd;
+}
+.down_content{
+	height:200px;
+}
+.instant_down,.two_code{
+	background: url(../img/app_down.jpg) no-repeat;
+}
+.instant_down{
+	width:328px;
+	height:200px;
+	left:0;
+	bottom:0;
+	background-position: 0 -39px;
+}
+.instant_down a{
+	width:120px;
+	height:30px;
+	left:9px;
+	bottom:33px;
+}
+.two_code{
+	width:282px;
+	height:231px;
+	right:0;
+	bottom:0;
+	background-position:-720px -8px;
+}
+.Tour_Guild{
+	height:150px;
+	padding-top:26px;
+	border-bottom:1px solid #eeeeee;
+}
+.Tour_Guild dl{
+	width:100%;
+}
+.Tour_Guild a:hover{
+	color:#ff9800;
+}
+.Tour_Guild dt,.Tour_Guild dd{
+	float:left;
+	line-height: 24px;
+    color:#616161;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+.Tour_Guild dd{
+	color:#f3eef3;
+}
+.Tour_Guild dd a{
+	color:#999999;
+}

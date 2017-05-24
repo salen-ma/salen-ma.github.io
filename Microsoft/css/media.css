@@ -1,0 +1,163 @@
+@media all and (max-width:1083px){
+	.head{
+		border-bottom:none;
+	}
+	.head_content{
+		width:100%;
+		box-sizing: border-box;
+		margin:0;
+		padding-left:50px;
+	}
+	.main{
+		width:100%;
+		margin-top:0;
+	}
+	.img1{
+		display:none;
+	}
+	.img2{
+		display:block;
+	}
+	.img_wrap{
+		width:100%;
+		float:left;
+	}
+	.hot_product,.ai{
+		background-color:#e6e6e6;
+	}
+	.micshop{
+		background-color:#333333;
+	}
+	.office_banner,.shop_info{
+		float:left;
+		position:static;
+		width:100%;
+		padding-bottom:73px;
+		text-align:center;
+		background-color:#e6e6e6;
+	}
+	.shop_info{
+		background-color:#333333;
+	}
+	.product,.work_product_content{
+		padding:0 10px;
+	}
+	.product_item{
+		width:50%;
+	}
+}
+@media all and (max-width:940px){
+	.feedback{
+		top:260px;
+	}
+	.head_content{
+		padding:0 10px;
+	}
+	.topnav,.search{
+		display:none;
+	}
+	.form{
+		width:18px;
+		height:17px;
+		padding:15px 8px 16px 8px;
+	}
+	.form:hover,.meun:hover{
+		background-color:#f2f2f2;
+	}
+	.form a{
+		left:8px;
+		top:15px;
+	}
+	.meun{
+		display:block;
+	}
+	.meun ul{
+		left:-180px;
+		top:48px;
+		z-index:50;
+		display:none;
+	}
+	.meun li{
+		width:270px;
+		height:48px;
+		padding-left:20px;
+		background-color:rgba(242, 242, 242, .5);
+		font-size:14px;
+		line-height:48px;
+		color:#333333;
+	}
+	.meun i{
+		top:25px;
+		right:15px;
+		width:7px;
+		height:4px;
+		background-position:0 -150px;
+	}
+	.meun:hover ul{
+		display:block;
+	}
+	.meun li:hover{
+		background-color:#e5e5e5;
+	}
+	.login{
+		margin-right: 0;
+	}
+	.about dl{
+		width:30%;
+		height:200px;
+	}
+	.language,.copyright_right{
+		float:none;
+		width:100%;
+	}
+	.copyright_right{
+		padding-top:20px;		
+	}
+	.about_us{
+		text-align:left;
+	}
+}
+@media all and (max-width:560px){
+	.logo{
+		margin-right:0;
+	}
+	.login{
+		display:none;
+	}
+	.head_content{
+		padding-right:0;
+	}
+	.product_item{
+		width:100%;
+		padding:0 38px;
+	}
+	.about{
+		display:none;
+	}
+	.select{
+		display:block;
+		padding-left:10px;
+		background-color:#f2f2f2;
+		margin-bottom:10px;
+	}
+	.select div{
+		font-size:14px;
+		line-height:35px;
+	}
+	.select div i{
+		display:inline-block;
+		width:7px;
+		height:4px;
+		background-position:0 -150px;
+	}
+	.select ul{
+		display:none;
+		left:0;
+		top:23px;
+		font-size:10px;
+		line-height:20px;
+	}
+	.select div:hover ul{
+		display:block;
+	}
+}

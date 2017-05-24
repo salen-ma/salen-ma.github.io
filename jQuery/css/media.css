@@ -1,0 +1,211 @@
+@media all and (max-width:1265px){
+	.copyright{
+		text-align:center;
+		font-size:0;
+	}
+	.friend_link{
+		float:none;
+		display:inline-block;
+	}
+	.copyright_left{
+		float:none;
+		display:inline-block;
+	}
+}
+@media all and (max-width:1149px){
+	.jq_info{
+		text-align:center;
+		padding:.21rem 0 0 0;
+		background-repeat: repeat;
+		font-size:0;
+	}
+	.download{
+		float:none;
+		display:inline-block;
+		width:7.5rem;
+		margin-bottom:.1rem;
+	}
+	.about_jq{
+		width:7.5rem;
+		float:none;
+		display:inline-block;
+	}
+}
+@media all and (max-width:985px){
+	.content_top{
+		text-align:center;
+		font-size:0;
+		padding:0;
+	}
+	.form{
+		float:none;
+		display:inline-block;
+		margin-top:0;
+		margin-bottom:.1rem;
+		width:50%;
+	}
+	.search{
+		width:100%;
+	}
+	.content_nav{
+		float:none;
+		display:inline-block;
+		width:90%;
+	}
+	.content_nav a{
+		float:none;
+	}
+}
+@media all and (max-width:890px){
+	.know_jq{
+		text-align: center;
+		padding:.15rem .25rem 0 .25rem;
+	}
+	.know_jq_left{
+		width:100%;
+	}
+	.know_jq_right{
+		width:100%;
+	}
+	.resources{
+		padding-top:.1rem;
+	}
+	.banner img{
+		width:60%;
+	}
+}
+@media all and (max-width:838px){
+	.topbar{
+		padding-left:0;
+	}
+	.left_nav{
+		display:none;
+	}
+	.right_nav{
+		float:none;
+	}
+	.download{
+		width:80%;
+	}
+	.about_jq{
+		width:80%;
+	}
+}
+@media all and (max-width:720px){
+	.head{
+		text-align:center;
+	}
+	.logo{
+		display:inline-block;
+		float:none;
+		padding-top:1rem;
+		background:url(../img/logo.jpg) no-repeat 0 .4rem;
+	}
+	.support{
+		display:inline-block;
+		float:none;
+	}
+	.code{
+		overflow-x:auto;
+	}
+	.code p{
+		width:8rem;
+	}
+	.friend_link a{
+		margin-right:.14rem;
+	}
+	.corpor a{
+		height:1.3rem;
+	}
+}
+@media all and (max-width:620px){
+	.content_nav{
+		display:none;
+	}
+	.select_wrap{
+		display:inline-block;
+	}
+	.books{
+		width:90%;
+	}
+	.copyright_left{
+		width:90%;
+	}
+	.support{
+		width:80%;
+	}
+	.form{
+		width:90%;
+	}
+	.search{
+		width:100%;
+	}
+	.other_jq_content a{
+		width:100%;
+	}
+	.corpor a{
+		height:.8rem;
+	}
+	.friend_link{
+		text-align: center;
+	}
+	.friend_link a{
+		float:none;
+		display: inline-block;
+	}
+	.books{
+		text-align: center;
+	}
+	.books a{
+		float:none;
+		display: inline-block;
+		width:80%;
+		margin-bottom:.15rem;
+	}
+	.content_top{
+		background-color: #0769ad;
+	    border-radius:0;
+	    border:none;
+	    box-shadow:none;
+	}
+	.content{
+		box-shadow:none;
+	}
+	.jq_info{
+		border-radius:.1rem .1rem 0 0;
+		overflow:hidden;
+	}
+}
+@media all and (max-width:540px){
+	.light,.css3,.cross{
+		width:100%;
+		margin-bottom:.1rem;
+	}
+	.topbar{
+		display: none;
+	}
+	.corpor_link{
+		text-align:center;
+		padding:0;
+		font-size:0;
+	}
+	.corpor_link a{
+		float:none;
+		display: inline-block;
+		width:80%;
+		height:1.7rem;
+		margin:0;
+	}
+}
+@media all and (max-width:420px){
+	.down_jq{
+		padding-left:.5rem;
+		background-position:.1rem .19rem; 
+	}
+	.about{
+		display:none;
+	}
+	.select{
+		display:block;
+	}
+}

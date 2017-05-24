@@ -1,0 +1,22 @@
+body,h3{
+	margin:0;
+}
+a{
+	-webkit-tap-highlight-color: transparent;
+	text-decoration:none;
+}
+input{
+	-webkit-appearance:none;
+	margin:0;
+	padding:0;
+	border:none;
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.img{
+	vertical-align:top;
+	border:none;
+}
